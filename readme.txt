@@ -23,7 +23,7 @@ Déroulement du projet:
 1.EDA: 
 La première étape que j'ai pu faire est d'explorer les données pour mieux les comprendre. 
 Tout ce que j'ai pu faire dans cette partie est dans le fichier EDA.ipynb
-
+Finalement en avançant sur le projet, j'ai utilisé peu de données qui sont fournit.
 
 2.functions:
 Les traitements des données sont tous sous formes de fonctions dans le répertoire function
@@ -33,6 +33,7 @@ Les traitements des données sont tous sous formes de fonctions dans le réperto
 Dans cette étape, je me suis basé uniquement sur les titres des postes pour créer un embedding avec BERT. J'ai vectoriser chaque titre de poste dans une dataframe. De la même manière avec la base de test, j'ai vectoriser l'historique de chaque poste que le users à pu occupé. Pour chaque poste que le test_users à pu occupé, je prédis une liste de 3 postes en utilisant du cosine similarity.  
 
 Pour aller plus loin, on pourrait comparer selon la description, les compétences requises en faisant apprendre BERT sur ces informations. On aurait un contexte supplémentaire autre que le titre du poste.
+
 jobs_title_similarity.ipynb contient ce que j'ai pu faire sur cette partie
 
 
