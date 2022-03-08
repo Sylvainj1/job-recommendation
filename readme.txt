@@ -39,7 +39,7 @@ jobs_title_similarity.ipynb contient ce que j'ai pu faire sur cette partie
 
 4.filtrage collaboratif:
 Dans cette partie là, j'ai considérer que si l'user postule à une offre c'est qu'il est intéresser. J'ai concaténer par la suite l'historique de l'user avec les jobs auxquels il a postuler pour augmenter la quantité de données. J'ai récupérer l'historique de chaque utilisateur avec la fréquence de chaque poste. Par exemple s'il a occupé 2x un poste de serveur, je vais indiquer une feature NB = 2. Les features d'entrée sont l'id de l'users, l'id du jobs, le nombre de fois où il a occupés ce jobs. 
-J'utilise l'agorithme Alternating Least Squares avec implicit qui est très utilisé pour des recommendations. Pour chaque test_users, je retourne 3 recommendations.
+J'utilise l'agorithme Alternating Least Squares avec implicit qui est très utilisé pour des recommendations. Pour chaque test_users, je retourne 3 recommendations. (J'aurais pu également utilisé du KNN)
 
 implicit.ipynb contient ce que j'ai pu faire sur cette partie
 
